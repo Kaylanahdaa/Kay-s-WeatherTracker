@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>WeatherTracker</title>
+
+        <!-- CSS FILES -->        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans&display=swap" rel="stylesheet">
+                        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/templatemo-topic-listing.css" rel="stylesheet">      
+        <link rel="icon" href="images/cuaca.png">      
+    
+
+    </head>
+    {{>header01}}
+    <body id="top">
+        <main>
+            <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-12 mx-auto">
+                            <h1 class="text-white text-center">WEATHER TRACKER</h1>
+
+                            <h6 class="text-center">Reliable Weather Forecasts Anytime, Anywhere</h6>
+
+                            <form method="get" class="custom-form mt-4 pt-2 mb-lg-0 mb-5" role="search">
+                                <div class="input-group input-group-lg">
+                                    <span>  <img src="images/search.png" class="custom-block-image-loc img-fluid" alt=""></span>
+
+                                    <input name="keyword" type="search" class="form-control" id="keyword" placeholder="Enter Location" aria-label="Search">
+                                    <button type="submit" class="form-control">Search</button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>                    
+            </section>
+
+
+            <section class="featured-section">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                            <div class="custom-block bg-white shadow-lg">
+                                    <div class="d-flex">
+                                        <div>
+                                             
+                                            <h5 class="mb-2">Weather Tracking Website</h5>
+                                            <br>
+                                            <h7 class="mb-0">By simply typing in the desired location, you can view the weather conditions for that area.</h7>
+                                        </div>
+                                    </div>
+                                        <img src="images/logo2.png" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12">
+                            <div class="custom-block custom-block-overlay">
+                                <div class="d-flex flex-column h-100">
+                                    <img src="images/bglogo.png" class="custom-block-image img-fluid" alt="">
+
+                                    <div class="custom-block-overlay-text d-flex">
+                                        <div class="text-center">
+                                            <h4>Results</h4>
+                                                <p class="text-white" id="pesan-1"></p>
+                                                <p class="text-white" id="pesan-2"></p> 
+                                        </div>
+                                    </div>
+
+                                    <div class="section-overlay"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="explore-section section-padding" id="section_2">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        
+                        <div class="col-12 text-center">
+                            <h2 class="mb-4">About Me</h1>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="design-tab" data-bs-toggle="tab" data-bs-target="#design-tab-pane" type="button" role="tab" aria-controls="design-tab-pane" aria-selected="true">Photos</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="marketing-tab" data-bs-toggle="tab" data-bs-target="#marketing-tab-pane" type="button" role="tab" aria-controls="marketing-tab-pane" aria-selected="false">Biodata</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance-tab-pane" type="button" role="tab" aria-controls="finance-tab-pane" aria-selected="false">Education</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="music-tab" data-bs-toggle="tab" data-bs-target="#music-tab-pane" type="button" role="tab" aria-controls="music-tab-pane" aria-selected="false">Hobbies</button>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="design-tab-pane" role="tabpanel" aria-labelledby="design-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-0">
+                                            <div class="custom-block-photos bg-white shadow-lg">
+                                                 <img src="images/me.png" class="custom-block-image img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="marketing-tab-pane" role="tabpanel" aria-labelledby="marketing-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                               <div class="custom-block-bio bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;✮⋆˙ Personal Information ✮⋆˙</h3>
+                                                              <br>
+                                                            <p><strong>Full Name:</strong> Kayla Nahda Muadzah</p>
+                                                            <p><strong>Nick Name:</strong> Kayla</p>
+                                                            <p><strong>Place of Birth and Date:</strong> Jakarta, August 25, 2003</p>
+                                                            <p><strong>Gender:</strong> Female</p>
+                                                            <p><strong>Phone Number:</strong> 081293291011</p>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                  </div>
+
+                                <div class="tab-pane fade" id="finance-tab-pane" role="tabpanel" aria-labelledby="finance-tab" tabindex="0">   <div class="row">
+                                         <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="custom-block custom-block-overlay">
+                                                <div class="d-flex flex-column h-100">
+                                                    
+
+                                                    <div class="custom-block-overlay-text d-flex">
+                                                        <div>
+                                                            <br><br><br>
+                                                            <h5 class="text-white mb-2">HighSchool</h5>
+                                                            
+                                                            <p class="text-white">I used to go to one of the high schools in Bekasi, namely SMAN 7 BEKASI</p>
+
+                                                        </div>
+                                                        <img src="images/sman7.png" class="custom-sman7 img-fluid" alt="">
+                                                    </div>
+
+                                                     <div class="section-overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="custom-block custom-block-overlay">
+                                                <div class="d-flex flex-column h-100">
+                                                    <div class="custom-block-overlay-text d-flex">
+                                                        <div>
+                                                            <br><br>
+                                                            <h5 class="text-white mb-2">College</h5>
+
+                                                            <p class="text-white">I am currently pursuing my undergraduate studies (Bachelor's degree or S1) at Universitas Negeri Padang (UNP).</p>
+                                                        </div>
+
+                                                        <img src="images/unp.png" class="custom-sman7 img-fluid" alt="">
+                                                    </div>
+
+                                                     <div class="section-overlay"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="music-tab-pane" role="tabpanel" aria-labelledby="music-tab" tabindex="0">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">&emsp;&emsp;&emsp;Basketball</h5>
+                                                        </div>
+                                                    </div>
+
+                                                    <img src="images/basketball.png" class="custom-hobi img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">&emsp;&emsp; Reading Books</h5>
+                                                        </div>
+                                                    </div>
+
+                                                    <img src="images/read.png" class="custom-hobi img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="col-lg-4 col-md-6 col-12 mb-4 mb-lg-3">
+                                            <div class="custom-block bg-white shadow-lg">
+                                                    <div class="d-flex">
+                                                        <div>
+                                                            <h5 class="mb-2">&emsp;Listening to music</h5>
+                                                        </div>
+                                                    </div>
+
+                                                    <img src="images/sing.png" class="custom-hobi img-fluid" alt="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                </div>
+
+                               
+                            </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+ <section class="timeline-section section-padding" id="section_3">
+                <div class="section-overlay"></div>
+
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-12 text-center">
+                            <h2 class="text-white mb-4">How does it work?</h1>
+                        </div>
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="timeline-container">
+                                <ul class="vertical-scrollable-timeline" id="vertical-scrollable-timeline">
+                                    <div class="list-progress">
+                                        <div class="inner"></div>
+                                    </div>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Find weather information for any region</h4>
+
+                                        <p class="text-white">Imagine this: you're curious about the weather in a remote corner of the world. How do you find out? It's simple! Just type the location into our weather search bar, and voila! You'll instantly get the latest weather updates, whether it's the scorching sun in the Sahara or the gentle drizzle in the Amazon rainforest.</p>
+
+                                        <div class="icon-holder">
+                                        </div>
+                                    </li>
+                                    
+                                    <li>
+                                        <h4 class="text-white mb-3">Get detailed and clear weather information.</h4>
+
+                                        <p class="text-white">Explore the intricacies of weather with comprehensive and crystal-clear information, enhancing your understanding and enjoyment of every forecast.</p>
+
+                                        <div class="icon-holder">
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <h4 class="text-white mb-3">Read &amp; Enjoy</h4>
+
+                                        <p class="text-white">And when you're ready to dive into the details, our user-friendly interface allows you to read and enjoy the intricacies of the weather conditions. You'll find everything you need to know, presented in a format that's not just informative but also engaging.</p>
+
+                                        <div class="icon-holder">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-section section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-6 col-12">
+                            <h2 class="mb-4">Frequently Asked Questions</h2>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-lg-5 col-12">
+                            <br><br>
+                            <img src="images/restapi.png" class="img-fluid" alt="FAQs">
+                        </div>
+
+                        <div class="col-lg-6 col-12 m-auto">
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                       Halaman ini digunakan untuk apa?
+                                        </button>
+                                    </h2>
+
+                                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            Halaman Bantuan ini bertujuan untuk memberikan informasi kepada pengguna yang mungkin memiliki pertanyaan umum tentang penggunaan aplikasi ini. Ini adalah sumber informasi yang komprehensif yang menjelaskan fungsi, fitur, dan pertanyaan yang sering diajukan (FAQ) seputar aplikasi.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Apa itu API?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                         API (Application Programming Interface) adalah serangkaian aturan dan protokol yang memungkinkan berbagai perangkat lunak berkomunikasi satu sama lain. Dalam konteks aplikasi ini, API memungkinkan aplikasi untuk mengirim dan menerima data dari server, memungkinkan fungsionalitas seperti memperbarui cuaca secara real-time.</div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        API apa yang digunakan dalam aplikasi ini?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">Aplikasi ini menggunakan API Cuaca Publik yang memberikan akses ke data cuaca terkini dan perkiraan cuaca jangka pendek serta jangka panjang. API ini memberikan informasi tentang suhu, kelembaban, kecepatan angin, kondisi cuaca, dan ramalan cuaca untuk lokasi yang diminta. </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Pola arsitektur API apa yang Digunakan?
+                                    </button>
+                                    </h2>
+
+                                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                        Dalam aplikasi ini, digunakan pola arsitektur RESTful API. REST (Representational State Transfer) adalah pendekatan arsitektur perangkat lunak untuk mendesain sistem jaringan yang berbasis pada protokol HTTP. RESTful API menggunakan metode HTTP standar (seperti GET, POST, PUT, DELETE) untuk mengelola sumber daya (resource) melalui URL. Ini mempermudah pertukaran data antara aplikasi klien dan server dengan cara yang efisien dan dapat diandalkan. RESTful API sering digunakan untuk membangun aplikasi web dan layanan web yang dapat diakses melalui internet.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+ 
+        {{>footer2}}
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="/js/app.js"></script>
+    </body>
+</html>
