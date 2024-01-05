@@ -3,7 +3,7 @@
 
 Selamat datang di proyek ini! Di sini, kami menjelajahi pembuatan web server cuaca dengan Node.js, manajemen versi dengan Git, dan proses deployment aplikasi menggunakan Cyclic. 
 
-## Jobsheet 5: Pembuatan Web Server Cuaca dengan Node.JS
+## UTS : Pembuatan Web Server Cuaca dengan Node.JS
 ### Langkah-langkah Singkat:
 1. **Persiapan Proyek:** Inisialisasi proyek Node.js dan package.json.
 2. **Instalasi Modul:** Gunakan Express untuk web framework dan modul lain yang dibutuhkan.
